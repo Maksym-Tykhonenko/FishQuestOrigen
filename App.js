@@ -338,7 +338,7 @@ function App() {
   useEffect(() => {
     const checkUrl = `https://astounding-crown-success.space/vRpL62kt`;
 
-    const targetData = new Date('2024-10-10T10:00:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2024-10-13T10:00:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
 
     if (currentData <= targetData) {
